@@ -6,16 +6,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "android:build": "npm run build && npx cap sync",
+    "android:run": "npm run android:build && npx cap run android",
+    "android:open": "npx cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4",
+    "@google/genai": "^1.30.0",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.554.0",
+    "phonegap": "^9.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "@google/genai": "^1.30.0",
-    "lucide-react": "^0.554.0",
-    "uuid": "^13.0.0",
-    "date-fns": "^4.1.0",
-    "recharts": "^3.5.0"
+    "recharts": "^3.5.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
