@@ -1,0 +1,7 @@
+{
+  "name": "RunFlow 跑步计划",
+  "description": "智能跑步计划生成与记录工具。使用 AI 量身定制训练计划，轻松追踪跑步数据。",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
