@@ -1,0 +1,6 @@
+// Cordova variables for Capacitor Android plugins
+ext.cordovaGradleConfigs = []
+
+ext.postBuildExtras = {
+    // Post build extras can be added here
+}
